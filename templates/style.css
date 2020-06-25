@@ -94,6 +94,16 @@ a:active {
   text-shadow: 0 0 2px #fff;
 }
 
+span {
+	padding: 1px 4px;
+	border-radius: 4px;
+}
+
+span:hover {
+	background: lightblue;
+}
+
+
 p {
   text-indent: 5vw;
   margin: 0 0 0 0;
@@ -201,12 +211,6 @@ hr::after {
 hr::before {
   content: "❦";
   color: black;
-}
-
-span:hover {
-	background: lightblue;
-	padding: 2px 4px;
-	border-radius: 2px;
 }
 
 /* Clearfix*/

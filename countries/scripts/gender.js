@@ -18,7 +18,7 @@ fs.readFile(path.join('.', 'countries', 'usa', 'us.json'), 'utf8', async (err, d
 		return r
 	}, {})
 
-	let [ girls = []] = [ result.F ] // [...new Set([ result.F ].map(obj => obj.Name))]
+	let [ girls = []] = [ result.F ]
 
 
 	let [ boys = []] =  [ result.M ] // [...new Set( [ result.M ].map(obj => obj.Name)) ] // [ result.M ]

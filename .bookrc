@@ -1,21 +1,22 @@
 {
-  "name": "baby-girl-names",
+  "name": "Baby Girl Names",
   "type": "text",
-  "has_page_numbers": false,
+  "has_page_numbers": true,
   "cover": {
-    "punchline": "",
+    "punchline": "Name your baby with style!",
     "toc": "",
     "author_detail": "",
     "colophon": "",
     "synopsis": ""
   },
   "status": "draft",
-  "asset_url": "",
-  "book_url": "",
+  "asset_url": "https://raw.githubusercontent.com/marvindanig/baby-girl-names/master/assets",
+  "book_url": "https://bubblin.io/book/baby-girl-names-by-sonica-arora",
   "mode": {
     "HTML": "html",
     "CSS": "css",
     "JS": "js",
     "HEAD": "html"
-  }
+  },
+  "book_id": 1361
 }
