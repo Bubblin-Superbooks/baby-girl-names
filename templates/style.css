@@ -24,12 +24,12 @@ h4,
 h5 {
   width: 100%;
   text-align: center;
-  line-height: calc(2 * 4vw * 1.50);
+  line-height: calc(2 * 4vw);
 }
 
 h5,
 h6 {
-  line-height: calc(1 * 4vw * 1.50);
+  line-height: calc(4vh);
 }
 
 h1,

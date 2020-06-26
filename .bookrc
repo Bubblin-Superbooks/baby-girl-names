@@ -3,7 +3,7 @@
   "type": "text",
   "has_page_numbers": true,
   "cover": {
-    "punchline": "Name your baby with style!",
+    "punchline": "Name your baby with style.",
     "toc": "",
     "author_detail": "",
     "colophon": "",
@@ -11,12 +11,12 @@
   },
   "status": "published",
   "asset_url": "https://raw.githubusercontent.com/marvindanig/baby-girl-names/master/assets",
-  "book_url": "https://bubblin.io/book/baby-girl-names-by-sonica-arora",
+  "book_url": "https://bubblin.io/book/baby-girl-names-by-marvin-danig",
   "mode": {
     "HTML": "html",
     "CSS": "css",
     "JS": "js",
     "HEAD": "html"
   },
-  "book_id": 1361
+  "book_id": 1362
 }
