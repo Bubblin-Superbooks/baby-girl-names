@@ -12,7 +12,7 @@ body {
   font-stretch: ultra-condensed;
   font-variant: no-common-ligatures proportional-nums slashed-zero;
   font-size: 4vw;
-  line-height: calc(4vw * 1.50);
+  line-height: 4vh;
   font-kerning: normal;
   text-rendering: geometricPrecision;
 }
@@ -38,7 +38,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Berkshire Swash', cursive;
 	font-family: 'Bubblegum Sans', cursive;
   margin: 0 0;
   padding: 0;
@@ -96,13 +95,11 @@ a:active {
 }
 
 span {
-	padding: 2px 5px;
 	border-radius: 5px;
-  height: calc(4vw * 1.50);
 }
 
 span:hover {
-	background: rgb(55, 55, 55, 0.9);
+	background: rgb(55, 55, 55, 0.1);
 }
 
 
@@ -119,7 +116,6 @@ p.start-chapter {
 p.start-chapter:first-letter {
   display: inline-block;
   margin: 0 1vw 0 0;
-  float: left;
   font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
   font-family: 'Berkshire Swash', cursive;
@@ -241,19 +237,22 @@ hr::before {
 }
 
 .inner {
-  margin: calc((100vh - (17 * (4vw * 1.5) + 4vw))/2) auto;
+  margin: calc((100vh - 88vh)/2) auto;
   width: 85vw;
-  height: calc(17 * (4vw * 1.5) + 4vw);
-  max-height: calc(17 * (4vw * 1.5) + 4vw);
-	break-after: right;	display: grid;
+  height: 88vh;
+  max-height: 88vh;
+	break-after: right;
+	display: grid;
 	grid-template-columns: auto auto auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
-  /*background: aliceblue; */  /* enable to see the maximum staging area */
+  /* background: aliceblue;  enable to see the maximum staging area */
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: auto auto auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .flex {
@@ -312,6 +311,7 @@ p.stretch-para {
 	display: -webkit-inline-box;
 	display: inline-flex;
 	cursor: pointer;
+	padding: 0 1vw;
 }
 
 [data-tooltip]:before, [data-tooltip]:after {
