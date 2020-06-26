@@ -10,6 +10,7 @@ fs.readFile(path.join('.', 'countries', 'usa', 'us.json'), 'utf8', async (err, d
 	let result = names.reduce((r, a) => {
 		[ r[a.Gender] = [] ] = [ r[a.Gender] ]
 		let existingName = (r[a.Gender].filter(item => item.Name === a.Name));
+
 		if (existingName.length > 0) {
 			existingName[0].Frequency = parseInt(a.Frequency) + parseInt(existingName[0].Frequency)
 		} else {
@@ -19,7 +20,6 @@ fs.readFile(path.join('.', 'countries', 'usa', 'us.json'), 'utf8', async (err, d
 	}, {})
 
 	let [ girls = []] = [ result.F ]
-
 
 	let [ boys = []] =  [ result.M ] // [...new Set( [ result.M ].map(obj => obj.Name)) ] // [ result.M ]
 
