@@ -115,10 +115,10 @@ p.start-chapter {
 
 p.start-chapter:first-letter {
   display: inline-block;
-  margin: 0 1vw 0 0;
+  margin: 0 -1vw 0 0;
   font-size: calc(3 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
 
@@ -157,7 +157,6 @@ code {
   line-height: calc(4vw * 1.50);
   font-kerning: normal;
   text-rendering: geometricPrecision;
-  /*background: pink;*/
 }
 
 hr.section {
