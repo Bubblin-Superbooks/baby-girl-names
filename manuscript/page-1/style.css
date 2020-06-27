@@ -256,15 +256,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
 /* Milk bottle */
 
-
 .milk_bottle {
-  margin: -120px 0 0 60px;
+  margin: -24vw 0 0 12vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -275,13 +270,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .milk_bottle .bottle {
-  margin-left: 3px;
-  width: 30px;
-  height: 40px;
+  margin-left: 0.6vw;
+  width: 6vw;
+  height: 8vw;
   background: #e8dcd8;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 5px 5px 0 #65a9c1;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  box-shadow: 1vw 1vw 0 #65a9c1;
   position: relative;
   z-index: 4;
 }
@@ -289,12 +284,12 @@ h1, h2, h3, h4, h5, h6 {
 .milk_bottle .bottle:before {
   content: "";
   display: block;
-  width: 12px;
-  height: 2px;
+  width: 2.4vw;
+  height: 0.4vw;
   background: #cdd3d7;
   position: absolute;
-  top: 10px;
-  left: 5px;
+  top: 2vw;
+  left: 1vw;
   animation: bottledetailmove 1.7s ease-in-out infinite;
   -webkit-animation: bottledetailmove 1.7s ease-in-out infinite;
 }
@@ -302,44 +297,44 @@ h1, h2, h3, h4, h5, h6 {
 .milk_bottle .bottle:after {
   content: "";
   display: block;
-  width: 12px;
-  height: 2px;
+  width: 2.4vw;
+  height: 0.4vw;
   background: #cdd3d7;
   position: absolute;
-  top: 20px;
-  left: 5px;
+  top: 4vw;
+  left: 1vw;
   animation: bottledetailmove 1.7s ease-in-out infinite;
   -webkit-animation: bottledetailmove 1.7s ease-in-out infinite;
 }
 
 .milk_bottle .tube_bottom {
-  width: 36px;
-  height: 7px;
+  width: 7.2vw;
+  height: 1.4vw;
   background: #f3cf9f;
-  border-radius: 5px;
-  box-shadow: 5px 5px 0 #65a9c1;
+  border-radius: 1vw;
+  box-shadow: 1vw 1vw 0 #65a9c1;
   position: relative;
   z-index: 3;
 }
 
 .milk_bottle .tube_middle {
   margin: 0 auto;
-  width: 30px;
-  height: 7px;
+  width: 6vw;
+  height: 1.4vw;
   background: #f1b980;
   border-top-left-radius: 400%;
   border-top-right-radius: 400%;
-  box-shadow: 5px 5px 0 #65a9c1;
+  box-shadow: 1vw 1vw 0 #65a9c1;
 }
 
 .milk_bottle .tube_top {
   margin: 0 auto;
-  width: 10px;
-  height: 7px;
+  width: 2vw;
+  height: 1.4vw;
   background: #f1b980;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  box-shadow: 5px 5px 0 #65a9c1;
+  box-shadow: 1vw 1vw 0 #65a9c1;
 }
 
 /* Pacifier */
