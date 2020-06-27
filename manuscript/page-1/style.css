@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Pacifier */
 .pacifier {
-  margin: 80px 0 0 -90px;
+  margin: 16vw 0 0 -18vw;
   position: absolute;
   top: 50%;
   right: 40%;
@@ -349,39 +349,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pacifier .pacifier_top {
-  width: 15px;
+  width: 3vw;
   margin: 0 auto;
-  height: 20px;
+  height: 4vw;
   background: #e8dcd8;
   /* fallback */
 
-  background: linear-gradient(135deg, transparent 10px, #e8dcd8 0) top left, linear-gradient(225deg, transparent 10px, #e8dcd8 0) top right;
+  background: linear-gradient(135deg, transparent 2vw, #e8dcd8 0) top left, linear-gradient(225deg, transparent 2vw, #e8dcd8 0) top right;
   background-size: 50% 50%;
   background-repeat: no-repeat;
-  background-image: radial-gradient(circle at -2px 7px, rgba(204, 0, 0, 0) 7px, #e8dcd8 5px), radial-gradient(circle at 10px 7px, rgba(204, 0, 0, 0) 7px, #e8dcd8 5px);
+  background-image: radial-gradient(circle at -0.4vw 1.4vw, rgba(204, 0, 0, 0) 7px, #e8dcd8 5px), radial-gradient(circle at 10px 7px, rgba(204, 0, 0, 0) 7px, #e8dcd8 5px);
   position: relative;
 }
 
 .pacifier .pacifier_top:before {
   content: "";
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 3vw;
+  height: 3vw;
   background: #e8dcd8;
   border-radius: 50%;
   position: absolute;
-  top: -10px;
+  top: -2vw;
   left: 0;
 }
 
 .pacifier_middle {
-  width: 20px;
-  height: 5px;
+  width: 4vw;
+  height: 1vw;
   background: #7e2e33;
-  border-radius: 5px;
+  border-radius: 1vw;
   position: absolute;
-  top: 10px;
-  left: -2px;
+  top: 2vw;
+  left: -0.4vw;
   z-index: 2;
 }
 
@@ -389,26 +389,26 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   display: block;
   margin: 5px auto 0;
-  width: 7px;
-  height: 7px;
+  width: 1.4vw;
+  height: 1.4vw;
   background: #7e2e33;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
 .pacifier_bottom {
-  width: 18px;
-  height: 18px;
-  border: 3px solid #ffae00;
+  width: 3.6vw;
+  height: 3.6vw;
+  border: 0.6vw solid #ffae00;
   border-radius: 50%;
   position: absolute;
-  top: 15px;
-  left: -4px;
+  top: 3vw;
+  left: -0.8vw;
   z-index: 1;
 }
 
 .pacifier.shadow {
-  margin: 83px 0 0 -95px;
+  margin: 16.6vw 0 0 -19vw;
   position: absolute;
   top: 50%;
   right: 40%;
@@ -421,10 +421,10 @@ h1, h2, h3, h4, h5, h6 {
   background: #65a9c1;
   /* fallback */
 
-  background: linear-gradient(135deg, transparent 10px, #65a9c1 0) top left, linear-gradient(225deg, transparent 10px, #65a9c1 0) top right;
+  background: linear-gradient(135deg, transparent 2vw, #65a9c1 0) top left, linear-gradient(225deg, transparent 2vw, #65a9c1 0) top right;
   background-size: 50% 50%;
   background-repeat: no-repeat;
-  background-image: radial-gradient(circle at -2px 7px, rgba(204, 0, 0, 0) 7px, #65a9c1 5px), radial-gradient(circle at 10px 7px, rgba(204, 0, 0, 0) 7px, #65a9c1 5px);
+  background-image: radial-gradient(circle at -0.4vw 1.4vw, rgba(204, 0, 0, 0) 1.4vw, #65a9c1 1vw), radial-gradient(circle at 2vw 1.4vw, rgba(204, 0, 0, 0) 1.4vw, #65a9c1 1vw);
 }
 
 .pacifier.shadow .pacifier_top:before,
@@ -434,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pacifier.shadow .pacifier_bottom {
-  border: 3px solid #65a9c1;
+  border: 0.6vw solid #65a9c1;
 }
 
 
@@ -500,25 +500,25 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes bottledetailmove {
   0% {
-    left: 5px;
+    left: 1vw;
   }
   50% {
-    left: 15px;
+    left: 3vw;
   }
   100% {
-    left: 5px;
+    left: 1vw;
   }
 }
 
 @-webkit-keyframes bottledetailmove {
   0% {
-    left: 5px;
+    left: 1vw;
   }
   50% {
-    left: 15px;
+    left: 3vw;
   }
   100% {
-    left: 5px;
+    left: 1vw;
   }
 }
 
