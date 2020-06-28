@@ -110,7 +110,7 @@ p {
 
 p.start-chapter {
   text-indent: 0;
-  margin: calc(0 * 4vw * 1.50 - 2px) auto 0;
+  margin: calc(4 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
@@ -241,9 +241,9 @@ hr::before {
   height: 88vh;
   max-height: 88vh;
 	break-after: right;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	/* display: grid; */
+	/* grid-template-columns: auto auto auto;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 
   /* background: aliceblue;  enable to see the maximum staging area */
 }
@@ -251,7 +251,7 @@ hr::before {
 .grid {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .flex {
@@ -304,6 +304,10 @@ p.stretch-para {
   font-size: 80%;
 }
 
+.right {
+	text-align: right;
+}
+
 [data-tooltip] {
 	position: relative;
 	z-index: 2;
@@ -340,7 +344,7 @@ p.stretch-para {
 	box-shadow: 0 0.4vw 0.8vw 0 rgba(0, 0, 0, 0.2);
 	-webkit-text-stroke-width: .5px;
 	-webkit-font-smoothing: antialiased;
-	border-color: rgb(55, 55, 55, 0.9);
+	border-color: rgb(255, 55, 55, 0.9);
 	font-size: 60%;
 	min-width: 5vw;
 }
