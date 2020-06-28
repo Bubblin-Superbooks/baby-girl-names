@@ -110,7 +110,7 @@ p {
 
 p.start-chapter {
   text-indent: 0;
-  margin: calc(5 * 4vw * 1.50 - 2px) auto 0;
+  margin: calc(0 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
