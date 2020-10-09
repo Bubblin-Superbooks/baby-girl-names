@@ -110,7 +110,7 @@ p {
 
 p.start-chapter {
   text-indent: 5vw;
-  margin: calc(4 * 4vw * 1.50 - 2px) auto 0;
+  margin: calc(2 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
@@ -119,6 +119,7 @@ p.start-chapter:first-letter {
   font-size: calc(2 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
   font-family: 'Bubblegum Sans', cursive;
+  font-weight: 100;
 }
 
 
