@@ -109,14 +109,14 @@ p {
 }
 
 p.start-chapter {
-  text-indent: 0;
+  text-indent: 5vw;
   margin: calc(4 * 4vw * 1.50 - 2px) auto 0;
 }
 
 p.start-chapter:first-letter {
   display: inline-block;
-  margin: 0 -1vw 0 0;
-  font-size: calc(3 * 4vw); /* three times normal size */
+  margin: 0 0 0 0;
+  font-size: calc(2 * 4vw); /* three times normal size */
   line-height: calc(2 * 4vw * 1.50 * 0.95);
   font-family: 'Bubblegum Sans', cursive;
 }
